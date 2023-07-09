@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "783050786848",
+    "project_id": "kauf-a1521",
+    "storage_bucket": "kauf-a1521.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783050786848:android:abfbd04c81bc0dca375445",
+        "android_client_info": {
+          "package_name": "com.vks.kauf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783050786848-p3qoq181bedk8i8crfvmtbm76mbjdd5r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZx4hZ6lp5nJUXjkPZcfPH50rR3MgFiKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783050786848-p3qoq181bedk8i8crfvmtbm76mbjdd5r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_an_account">Create an <br/> account.</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="welcome">Welcome.</string>
+    <string name="log_in">Log in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="or">OR</string>
+    <string name="name">Name</string>
+    <string name="enter_your_email_here">Enter your email here:</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="register_redirect">Don\'t have an account yet? Click here to sign up</string>
+    <string name="log_out">Log out</string>
+    <string name="login_redirect">Already have an account? Click here to log in</string>
+    <string name="choose_your_theme">Choose your theme:</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="follow_system_setting">Follow system setting</string>
+    <string name="shopping_starts_here">Shopping starts here.</string>
+    <string name="categories">Categories:</string>
+    <string name="announcements">Announcements</string>
+    <string name="user_settings">User settings</string>
+    <string name="app_settings">App settings</string>
+    <string name="locations">Locations</string>
+    <string name="logout">Logout</string>
+    <string name="about_us">About us</string>
+    <string name="open" />
+    <string name="close" />
+    <string name="settings">Settings</string>
+    <string name="account_settings">Account settings</string>
+    <string name="our_stores">Our stores</string>
+    <string name="home">Home</string>
+    <string name="flash_sales">Flash sales!</string>
+    <string name="trgovina_na_rate">Trgovina na rate</string>
+    <string name="kreditne_kartice">Kreditne kartice</string>
+    <string name="kauf_finansiranje">Kauf Finansiranje</string>
+    <string name="sindikati_i_fond_pio">Sindikati i Fond PIO</string>
+    <string name="trgovina_na_cak_do_24_mjesecne_rate_uz_shopping_i_libero_kartice">Trgovina na cak do 24 mjesecne rate uz Shopping i Libero kartice</string>
+    <string name="novo_kauf_finansiranje_do_36_mjesecnih_rata_u_sustini_potrosacki_kredit">Novo! Kauf Finansiranje do 36 mjesecnih rata! U sustini potrosacki kredit</string>
+</resources>

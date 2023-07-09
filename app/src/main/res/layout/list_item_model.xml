@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipChildren="false">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/rounded_credentials"
+        app:cardCornerRadius="10sp"
+        app:cardElevation="10sp"
+        android:layout_margin="20sp"
+        android:clipChildren="false">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20sp"
+            android:clipChildren="false">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/tvDescription"
+                android:maxEms="7"
+                android:maxLines="2"
+                android:textSize="20sp"
+                android:fontFamily="@font/montsterrat_bold"/>
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tvTitle"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/tvPrice"
+                android:layout_marginVertical="10sp"
+
+                android:textSize="15sp"
+                android:maxEms="10"
+                android:textColor="@color/text_black"
+                android:fontFamily="@font/montsterrat_medium"/>
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+
+                android:fontFamily="@font/montsterrat_bold"
+                android:maxEms="10"/>
+
+            <TextView
+                android:id="@+id/tvStock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+
+                android:fontFamily="@font/montsterrat"
+                android:maxEms="10"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:padding="30sp"
+        android:id="@+id/tvPriceFlashSale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/cv1"
+        app:layout_constraintStart_toEndOf="@id/cv1"
+        app:layout_constraintEnd_toEndOf="@id/cv1"
+        app:layout_constraintBottom_toBottomOf="@id/cv1"
+        android:rotation="90"
+        android:elevation="11sp"
+        android:fontFamily="@font/montsterrat_bold"
+        android:textSize="15sp"
+        android:textColor="@color/primary_analogous_2_700"
+        android:visibility="gone"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

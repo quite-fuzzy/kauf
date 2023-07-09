@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- primary -->
+    <color name="primary_200">#FEAB96</color>
+    <color name="primary_500">#FF5431</color>
+    <color name="primary_700">#E64828</color>
+
+    <!-- primary analogous -->
+    <color name="primary_analogous_200">#FEDF96</color>
+    <color name="primary_analogous_500">#FFBF3E</color>
+    <color name="primary_analogous_700">#FBA037</color>
+
+    <!-- primary analogous 2 -->
+    <color name="primary_analogous_2_200">#FE96B5</color>
+    <color name="primary_analogous_2_500">#FA356A</color>
+    <color name="primary_analogous_2_700">#D22C62</color>
+
+    <!-- secondary -->
+    <color name="secondary_200">#96E9FE</color>
+    <color name="secondary_500">#55D1F3</color>
+    <color name="secondary_700">#45AAC3</color>
+    <color name="secondary_900">#2E737D</color>
+
+    <!-- error -->
+    <color name="error">#B00020</color>
+    <color name="error_2">#CF6679</color>
+
+    <color name="text_black">#686868</color>
+    <color name="background_white">#FFFFFF</color>
+
+    <color name="black">#1B1B1B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+</resources>
