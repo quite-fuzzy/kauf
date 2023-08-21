@@ -62,10 +62,10 @@ class BootActivity : AppCompatActivity()
                 binding.switch1.visibility = View.VISIBLE
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)
             }
-
-            val connectingAnimation = AnimationUtils.loadAnimation(this@BootActivity, R.anim.breathing_left_detail)
-            binding.iv1.startAnimation(connectingAnimation)
         }
+
+        val connectingAnimation = AnimationUtils.loadAnimation(this@BootActivity, R.anim.breathing_left_detail)
+        binding.iv1.startAnimation(connectingAnimation)
     }
 }
 

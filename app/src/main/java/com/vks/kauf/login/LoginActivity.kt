@@ -3,6 +3,7 @@ package com.vks.kauf.login
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.animation.AnimationUtils
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 import com.vks.kauf.MainActivity
@@ -16,7 +17,6 @@ class LoginActivity : AppCompatActivity()
 
     override fun onCreate(savedInstanceState: Bundle?)
     {
-
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -55,6 +55,9 @@ class LoginActivity : AppCompatActivity()
             startActivity(intent)
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
+
+        val connectingAnimation = AnimationUtils.loadAnimation(this@LoginActivity, R.anim.breathing_left_detail)
+        binding.iv1.startAnimation(connectingAnimation)
     }
 
     override fun finish()
