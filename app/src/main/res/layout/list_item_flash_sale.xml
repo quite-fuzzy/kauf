@@ -10,7 +10,7 @@
         android:id="@+id/tvCategory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/rounded_credentials"
+        android:background="@drawable/flash_sale_title"
         app:layout_constraintEnd_toEndOf="@id/cv1"
         app:layout_constraintTop_toTopOf="@id/cv1"
         android:fontFamily="@font/montsterrat_bold"
